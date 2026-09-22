@@ -6,3 +6,8 @@ p {
 title {
     color: teal;
 }
+
+footer {
+    width: auto;
+    height: auto;
+}
