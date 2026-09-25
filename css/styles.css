@@ -10,5 +10,6 @@ title {
 footer {
     border: solid 5px red;
     padding: 5px;
-    margin: 5px
+    margin: 5px;
+    width: auto;
 }
