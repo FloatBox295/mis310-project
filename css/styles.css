@@ -4,7 +4,7 @@ p {
 }
 
 footer {
-    border: solid 1px red;
+    border: solid 1px rgb(0, 0, 0);
     padding: 5px;
     margin: 5px;
     width: fit-content;
