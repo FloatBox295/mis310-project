@@ -3,13 +3,6 @@ p {
     font-size: 24px;
 }
 
-title {
-    color: teal;
-    font-style: bold;
-    border: solid 1px black;
-    width: fit-content;
-}
-
 footer {
     border: solid 5px red;
     padding: 5px;
@@ -24,4 +17,8 @@ main {
 
 header {
 color: pink;
+border: solid 1px black;
+padding: 5px;
+margin: 5px;
+width: fit-content;
 }
