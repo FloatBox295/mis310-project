@@ -6,6 +6,8 @@ p {
 title {
     color: teal;
     font-style: bold;
+    border: solid 1px black;
+    width: fit-content;
 }
 
 footer {
@@ -13,4 +15,12 @@ footer {
     padding: 5px;
     margin: 5px;
     width: fit-content;
+}
+
+main {
+    color: purple;
+}
+
+header {
+color: pink;
 }
