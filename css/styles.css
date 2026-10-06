@@ -4,6 +4,8 @@ p {
 }
 
 button h3 {
+    display: flex;
+    align-items: center;
     font-size: large;
     border: solid 1px black;
     padding: 20px;
