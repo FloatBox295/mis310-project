@@ -12,6 +12,8 @@ footer {
 }
 
 main {
+    display: flex;
+    justify-content: center;
     color: purple;
     font-size: 18px;
 }
