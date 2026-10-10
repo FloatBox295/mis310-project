@@ -10,7 +10,7 @@ button h3 {
     border: solid 1px rgb(227, 203, 203);
     padding: 20px;
     margin: 20px;
-    width: horizontal;
+    width: row;
 }
 
 footer {
