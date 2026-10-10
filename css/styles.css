@@ -29,6 +29,12 @@ main {
     font-size: 18px;
 }
 
+main img {
+    height:auto;
+    width: 250px;
+
+}
+
 header {
 color: pink;
 border: solid 1px black;
