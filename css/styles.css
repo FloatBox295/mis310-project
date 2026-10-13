@@ -6,10 +6,12 @@ p {
 .buttons {
     display: flex;
     align-items: center;
+    flex-direction: row;
     font-size: large;
     border: solid 1px rgb(227, 203, 203);
     padding: 20px;
     margin: 20px;
+    width: fit-content;
 
 }
 
