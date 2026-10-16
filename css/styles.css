@@ -9,6 +9,10 @@ p {
 
 }
 
+.nav {
+    display: block
+}
+
 footer {
     color: pink;
     border: solid 1px rgb(0, 0, 0);
