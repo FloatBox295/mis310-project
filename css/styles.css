@@ -14,9 +14,13 @@ nav ul {
 nav a {
     display: block;
     height: 50px;
-    width: 150px;
+    width: 200px;
     text-align: center;
     line-height: 50px;
+    border: solid 1px teal;
+    padding: 5px;
+    margin: 5px;
+    width: fit-content;
 
 }
 
