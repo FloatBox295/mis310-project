@@ -3,7 +3,7 @@ p {
     font-size: 24px;
 }
 
-.buttons {
+.nav {
     display: flex;
     align-items: center;
     flex-direction: row;
