@@ -3,9 +3,8 @@ p {
     font-size: 24px;
 }
 
-.nav {
+.navsep {
     display: flex;
-    align-items: center;
     flex-direction: row;
     font-size: large;
     border: solid 1px rgb(227, 203, 203);
