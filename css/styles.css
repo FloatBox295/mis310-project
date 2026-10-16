@@ -3,13 +3,13 @@ p {
     font-size: 24px;
 }
 
-.navsep {
+.nav ul {
     display:flex;
     justify-content: space-between;
 
 }
 
-.nav {
+.nav a {
     display: block
 }
 
