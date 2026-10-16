@@ -20,6 +20,15 @@ nav ul {
     }
 }
 
+@media (max-width: 400px) {
+    nav ul {
+        flex-direction: column;
+        margin:10px;
+        padding: 5px;
+        gap: 1px;
+    }
+}
+
 nav a {
     display: block;
     height: 50px;
