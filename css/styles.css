@@ -11,6 +11,12 @@ nav ul {
 
 }
 
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+    }
+}
+
 nav a {
     display: block;
     height: 50px;
@@ -20,8 +26,7 @@ nav a {
     border: solid 1px teal;
     padding: 20px;
     margin: 50px;
-    background-color: teal;
-
+    background-color: aquamarine;
 }
 
 footer {
