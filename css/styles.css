@@ -29,6 +29,18 @@ nav ul {
     }
 }
 
+@media (max-width: 940px) {
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+    main img {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
 nav a {
     display: block;
     height: 50px;
