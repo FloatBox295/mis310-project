@@ -29,6 +29,13 @@ nav ul {
     }
 }
 
+@media (min-width:700px) and (max-width: 1333px) {
+    nav ul {
+        display: grid;
+        grid-template-columns:1fr 1fr;
+       
+    }
+}
 
 nav a {
     display: block;
