@@ -52,6 +52,9 @@ footer {
 main {
     color: purple;
     font-size: 18px;
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    gap: 30px
 }
 
 .image1 {
