@@ -65,6 +65,12 @@ main {
     gap: 30px
 }
 
+rightbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
 @media (max-width: 940px) {
     main {
         display: flex;
