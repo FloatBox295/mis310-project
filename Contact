@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Contact Me!</title>
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+    <header>
+        <h1>MIS 310</h1>
+        <p class="name">Justin Le</p>
+        <h2>Chess Website: Page 3</h2>
+    </header>
+    <main>
+    <form method="post" action="https://miswebapps.uncw.edu/mis310/form-submit.aspx">
+
+    <!-- Your form controls go here -->
+     <label for="email">Email address</label>
+    <input type="email" id="email" name="email" required>
+
+    </form>
+
+    </main>
+
+        <footer>
+        <p class="foot"><a href="index.html">Home Page</a> </p>
+        </footer>
+    </body>
+</html>
