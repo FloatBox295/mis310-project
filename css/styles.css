@@ -9,6 +9,7 @@ p {
     padding: 5px;
     margin: 5px;
     width: fit-content;
+    background-color: pink;
 }
 
 nav ul {
