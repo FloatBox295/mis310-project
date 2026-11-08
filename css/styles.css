@@ -3,6 +3,14 @@ p {
     font-size: 30px;
 }
 
+#Contact {
+    color: rgb(255, 0, 43);
+    border: solid 1px rgb(0, 0, 0);
+    padding: 5px;
+    margin: 5px;
+    width: fit-content;
+}
+
 nav ul {
     display:flex;
     justify-content: space-between;
