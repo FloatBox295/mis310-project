@@ -107,3 +107,7 @@ width: fit-content;
 .foot {
     color: pink;
 }
+
+fieldset {
+    width: fit-content;
+}
