@@ -3,7 +3,7 @@ p {
     font-size: 30px;
 }
 
-#more {
+#more.visible {
     display: block;
 }
 
