@@ -1,6 +1,7 @@
 console.log("Javascript is linked")
-const button = document.querySelector("#firstimg");
+const more = document.querySelector("#more");
+const more2 = document.querySelector("#more2");
 
 button.addEventListener("click", function () {
-    // Code here runs when the button is clicked.
+    more2.classList.toggle("visible");
 });

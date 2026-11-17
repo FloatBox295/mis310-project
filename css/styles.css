@@ -3,6 +3,14 @@ p {
     font-size: 30px;
 }
 
+#more {
+    display: block;
+}
+
+#more2 {
+    display: none;
+}
+
 #Contact {
     color: rgb(255, 0, 43);
     border: solid 1px rgb(0, 0, 0);
