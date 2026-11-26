@@ -3,6 +3,28 @@ p {
     font-size: 30px;
 }
 
+.image1 {
+    cursor: pointer;
+    border-radius: 8px;
+    transition: transform 0.5s;    
+}
+
+.image1:hover {
+    transform: scale(1.03);
+}
+
+#info-box {
+    margin-top: 20px;
+    padding: 15px;
+    max-width: 400px;
+    background-color: #f4f4f9;
+    border-left: 4px solid #007bff;
+    border-radius: 4px;
+    font-family: sans-serif;
+}
+
+
+
 #more2.visible {
     display: block;
 }
