@@ -8,7 +8,8 @@ more.addEventListener("click", function () {
     });
 }
 
-$("#message").text("Hello!");
+
+//$("#message").text("Hello!");
 
 
 const images = document.querySelectorAll('.image1');
