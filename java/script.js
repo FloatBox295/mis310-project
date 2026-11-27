@@ -21,7 +21,18 @@ images.forEach(image => {
         const extraInfo = image.getAttribute('image-info');
         
         infoText.textContent = extraInfo;
-        infoBox.classList.toggle('more2');
+
+const item = image.closest('.gallery-item');
+const alreadyOpen = infoBox.parentElement === item
+    && !infoBox.classList.contains('more2');
+
+if (alreadyOpen) {
+    infoBox.classList.add('more2');
+    return;
+}
+
+item.append(infoBox);
+infoBox.classList.remove('more2');;
     });
 });
 ;

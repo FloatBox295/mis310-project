@@ -23,6 +23,22 @@ p {
     border-left: 4px solid #007bff;
     border-radius: 4px;
     font-family: sans-serif;
+    margin-top: 0;           /* Changed from 20px; gap now handles spacing */
+    box-sizing: border-box;  /* Added */
+    flex: 1 1 220px;         /* Added: aim for 220px beside the image */
+    min-width: 0;            /* Added: allow the box to shrink on narrow screens */
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.gallery img {
+    max-width: 100%;
+    height: auto;
 }
 
 
@@ -108,12 +124,6 @@ footer {
     gap: 30px
 }
 
-.rightbar {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    width: 450px;
-}
 
 @media (max-width: 940px) {
     main {
