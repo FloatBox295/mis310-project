@@ -23,13 +23,6 @@ p {
     font-family: sans-serif;
 }
 
-.gallery {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    gap: 12px;
-}
-
 
 #more2.visible {
     display: block;
