@@ -23,6 +23,12 @@ p {
     font-family: sans-serif;
 }
 
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 12px;
+}
 
 
 #more2.visible {
@@ -106,12 +112,6 @@ footer {
     gap: 30px
 }
 
-.rightbar {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    width: 450px;
-}
 
 @media (max-width: 940px) {
     main {
