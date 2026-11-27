@@ -7,6 +7,8 @@ p {
     cursor: pointer;
     border-radius: 8px;
     transition: transform 0.5s;    
+    height:auto;
+    width: 450px;
 }
 
 .image1:hover {
@@ -22,6 +24,7 @@ p {
     border-radius: 4px;
     font-family: sans-serif;
 }
+
 
 
 #more2.visible {
@@ -105,6 +108,12 @@ footer {
     gap: 30px
 }
 
+.rightbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 450px;
+}
 
 @media (max-width: 940px) {
     main {
